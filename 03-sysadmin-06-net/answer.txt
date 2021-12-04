@@ -17,7 +17,7 @@
         Vary: Fastly-SSL
         X-DNS-Prefetch-Control: off
         Set-Cookie: prov=ef531952-1bab-12e9-d2c9-7d5cc5b5d0a5; domain=.stackoverflow.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly
-2. Заголовки HTTP в браузере
+2. Заголовки HTTP в браузере, Время загрузки 4.24s, beacon.js подгружается долшье всего 581 мс
         Request URL: https://stackoverflow.com/
         Request Method: GET
         Status Code: 200 
@@ -58,6 +58,7 @@
         sec-fetch-user: ?1
         upgrade-insecure-requests: 1
         user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+  
 3.curl ifconfig.io >> 91.143.166.122
 4.whois -h whois.ripe.net 91.143.166.122 >>
        4.1 descr: INSYS network (ООО "ИНСИС")
