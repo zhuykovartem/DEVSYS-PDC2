@@ -1,2 +1,2 @@
 # DEVSYS-PDC2
-Learn courses Neotology
+Learn cours Neotology
